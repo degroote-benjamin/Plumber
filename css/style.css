@@ -1,0 +1,22 @@
+* /*reset css */
+{
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	display : table;
+	width: 100%;
+}
+
+footer /* fix footer in the bot on the page*/
+{
+	display : table-row;
+}
