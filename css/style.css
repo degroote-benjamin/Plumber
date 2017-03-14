@@ -23,8 +23,11 @@ footer /* fix footer in the bot on the page*/
 
 header img
 {
-  height: 150px;
+  height: 200px;
   width: 150px;
+  margin-top: 1em;
+  margin-left: 2em;
+  margin-bottom: 1em;
 }
 
 header img , h1
@@ -36,4 +39,25 @@ header img , h1
 h1
 {
   margin-left: 20em;
+}
+
+nav li
+{
+  display: inline-block;
+  margin-right: 15em;
+  margin-top: 1em;
+  color: white;
+  padding: 1em;
+}
+
+.left /* move first element in right*/
+{
+  margin-left: 20em;
+}
+
+
+nav
+{
+  width: 100%;
+  background-color: #b2b2b2;
 }
