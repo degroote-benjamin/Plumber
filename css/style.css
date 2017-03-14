@@ -2,7 +2,6 @@
 {
   margin:0;
   padding:0;
-  border:0;
 }
 
 html, body
@@ -165,17 +164,44 @@ hr
   margin-top: 2em;
 }
 
-table
+.tarif /*table from tarif.html*/
 {
   border-collapse: collapse;
   margin-left: 9em;
   margin-top: 2em;
 }
 
-th,td
+.tarif th,.tarif td /*th td from table from tarif.html*/
 {
   border: 1px solid black;
   width:22em;
   height: 3em;
   text-align: center;
+}
+
+label /*label from contact.html*/
+{
+  display: inline-block;
+  width: 100px;
+  margin-left: 5em;
+  vertical-align: top;
+}
+
+label,input /*margin in label input from contact.html*/
+{
+  margin-bottom: 2em;
+}
+
+form , iframe
+{
+  display: inline-block;
+  vertical-align: top;
+}
+
+iframe
+{
+  border:0;
+  width: 30em;
+  height: 25em;
+  margin-top: 5em;
 }
