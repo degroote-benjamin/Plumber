@@ -60,7 +60,7 @@ h1
 
 .left /* move first element in right*/
 {
-  margin-left: 20em;
+  margin-left: 22em;
 }
 
 
@@ -89,9 +89,11 @@ a:hover /*hover a css*/
   min-height: 40em;
 }
 
-.main , .mid
-{display: inline-block;;
+.main , .mid /*main and mid inline-block index.html*/
+{
+  display: inline-block;;
 }
+
 .mid /*section for all element in the page*/
 {
   width: 70%;
@@ -100,37 +102,64 @@ a:hover /*hover a css*/
   margin-top: 1em;
 }
 
-.mid h2
+.mid h2 /*h2 from index.html*/
 {
   text-align: center;
   margin-bottom: 1em;
 }
 
-figure
+figure /*figure from index.html*/
 {
   display: inline-block;
   margin-left: 12em;
   margin-top: 3em;
 }
 
-figure img
+figure img /*figure img from index.html*/
 {
   height: 170px;
   width: 170px;
   margin-right: 5.5em;
+  margin-bottom: 1em;
 }
 
-figcaption
+figcaption /*figcpation from index.html*/
 {
   display: inline-block;
     margin-left: 12em;
 }
 
-figcaption h2
+figcaption h2 /*legend from index.html*/
 {
   width:170px;
   display: inline-block;
   margin-right: 3.7em;
   margin-top: 1em;
   vertical-align: middle;
+}
+
+hr
+{
+  height: 2px;
+  width: 83%;
+  background-color: grey;
+  margin-left: 10%;
+}
+
+.mid ul /*ul from mid in index.html */
+{
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.mid ul li /* mid li from index.html*/
+{
+  list-style-type:square;
+  margin-left: 5em;
+}
+
+.domain /*p from index.html*/
+{
+  text-align: center;
+  margin-top: 2em;
 }
