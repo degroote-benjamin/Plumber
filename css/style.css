@@ -164,3 +164,18 @@ hr
   text-align: center;
   margin-top: 2em;
 }
+
+table
+{
+  border-collapse: collapse;
+  margin-left: 9em;
+  margin-top: 2em;
+}
+
+th,td
+{
+  border: 1px solid black;
+  width:22em;
+  height: 3em;
+  text-align: center;
+}
