@@ -25,6 +25,7 @@ footer /* fix footer in the bot on the page*/
 footer li
 {
   display: inline-block;
+  vertical-align: middle;
   margin-right: 3em;
   margin-top: 1em;
 }
@@ -84,7 +85,7 @@ a:hover /*hover a css*/
 .main /*main section from page*/
 {
   width: 100%;
-  background-color: #DCDCDC;
+  background-color: #E0DEDD;
   min-height: 40em;
 }
 
@@ -198,10 +199,18 @@ form , iframe
   vertical-align: top;
 }
 
-iframe
+iframe /*google map*/
 {
   border:0;
   width: 30em;
   height: 25em;
   margin-top: 5em;
+  margin-left: 7em;
+}
+
+.imgfoot /*img social network in footer*/
+{
+  height: 100px;
+  width: 250px;
+  margin-left: 7em;
 }
