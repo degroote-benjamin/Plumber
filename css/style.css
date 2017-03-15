@@ -47,7 +47,8 @@ header img , h1 /*inline element from header */
 
 h1
 {
-  margin-left: 20em;
+margin-left: 30%;
+font-family: 'Tangerine';
 }
 
 .firstnav li /*inline element from list*/
