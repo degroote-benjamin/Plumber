@@ -214,3 +214,38 @@ iframe /*google map*/
   width: 250px;
   margin-left: 7em;
 }
+
+.horaire td ,.horaire th /* style for tab in horaire.html*/
+{
+  border: 1px solid black;
+  width: 10em;
+  height: 3em;
+  text-align: center;
+}
+
+.horaire /*tab from horaire.html*/
+{
+  border-collapse: collapse;
+  margin-left: 6%;
+}
+
+.notfree /*case not free from tab in horaire.html*/
+{
+  background-color:#F8333C;
+}
+
+.free /*free case from tab in horraire.html*/
+{
+  background-color: #FFEEDB;
+}
+
+.horaireform /*form from horaire.html*/
+{
+  margin-left:3em;
+  margin-top: 5em;
+}
+
+.leftin /*input radio from horaireform in horaire.html*/
+{
+  margin-left: 30%;
+}

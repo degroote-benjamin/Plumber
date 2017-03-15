@@ -27,7 +27,108 @@
     </nav>
 
     <!-- end of nav -->
+    <section class="main">
 
+        <article class="mid">
+
+          <table class="horaire">
+            <caption>1ere semaine avril</caption>
+            <tr>
+              <th>Jour</th>
+              <th colspan="7">Horaires</th>
+            </tr>
+            <tr>
+              <td></td>
+              <td>8</td>
+              <td>10</td>
+              <td>12</td>
+              <td>14</td>
+              <td>16</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>Lundi</td>
+              <td class="notfree"></td>
+              <td class="free"></td>
+              <td class="notfree"></td>
+              <td class="free"></td>
+              <td class="notfree"></td>
+              <td class="notfree"></td>
+            </tr>
+            <tr>
+              <td>Mardi</td>
+              <td class="notfree"></td>
+              <td class="notfree"></td>
+              <td class="notfree"></td>
+              <td class="notfree"></td>
+              <td class="notfree"></td>
+              <td class="free"></td>
+            </tr>
+            <tr>
+              <td>Mercredi</td>
+              <td class="free"></td>
+              <td class="notfree"></td>
+              <td class="notfree"></td>
+              <td class="notfree"></td>
+              <td class="notfree"></td>
+              <td class="notfree"></td>
+            </tr>
+            <tr>
+              <td>Jeudi</td>
+              <td class="notfree"></td>
+              <td class="notfree"></td>
+              <td class="free"></td>
+              <td class="notfree"></td>
+              <td class="notfree"></td>
+              <td class="free"></td>
+            </tr>
+            <tr>
+              <td>Vendredi</td>
+              <td class="notfree"></td>
+              <td class="free"></td>
+              <td class="free"></td>
+              <td class="free"></td>
+              <td class="free"></td>
+              <td class="free"></td>
+            </tr>
+          </table>
+
+
+          <form class="horaireform" action="index.html" method="post">
+            <p>
+            <h3>Prendre rendez-vous</h3>
+            <label for="">Nom</label>
+            <input type="text" name="" value=""> <br>
+            <label for="">Prenom</label>
+            <input type="text" name="" value=""><br>
+            <label for="">Jour</label>
+            <select class="" name="jour">
+              <option value="Selectionnez" selected>Selectionnez</option>
+              <option value="Lundi">Lundi</option>
+              <option value="Mardi">Mardi</option>
+              <option value="Mercredi">Mercredi</option>
+              <option value="Jeudi">Jeudi</option>
+              <option value="Vendredi">Vendredi</option>
+            </select><br>
+            <label for="">Horaire</label><br>
+              <input type="radio" name="horaire" value="" class="leftin">
+              <label for="8-10">8heure a 10heure</label><br>
+              <input type="radio" name="horaire" value="" class="leftin">
+              <label for="10-12">10heure a midi</label><br>
+              <input type="radio" name="horaire" value="" class="leftin">
+              <label for="12-14">midi a 14heure</label><br>
+              <input type="radio" name="horaire" value="" class="leftin">
+              <label for="14-16">14heure a 16heure</label><br>
+              <input type="radio" name="horaire" value="" class="leftin">
+              <label for="16-18">16heure a 18heure</label><br>
+              <input type="submit" name="" value="Envoyez" class="leftin">
+
+            </select>
+            </p>
+          </form>
+        </article>
+
+    </section>
 
 
     <!-- start of footer -->
