@@ -87,7 +87,7 @@ a:hover /*hover a css*/
 .main /*main section from page*/
 {
   width: 100%;
-  background-color: #E0DEDD;
+  background-color:#EFEFEF;
   min-height: 40em;
 }
 
@@ -101,14 +101,13 @@ a:hover /*hover a css*/
   width: 70%;
   margin-left: 15%;
   background-color: white;
-  margin-top: 1em;
-  margin-bottom: 1em;
 }
 
 .mid h2 /*h2 from index.html*/
 {
   text-align: center;
   margin-bottom: 1em;
+  margin-top: 3em;
 }
 
 figure /*figure from index.html*/
@@ -165,6 +164,7 @@ hr
 {
   text-align: center;
   margin-top: 2em;
+  margin-bottom: 3em;
 }
 
 .tarif /*table from tarif.html*/
@@ -229,6 +229,7 @@ iframe /*google map*/
 {
   border-collapse: collapse;
   margin-left: 6%;
+  margin-top: 2.5em;
 }
 
 .notfree /*case not free from tab in horaire.html*/
